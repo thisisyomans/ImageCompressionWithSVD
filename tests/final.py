@@ -9,7 +9,7 @@ from numpy.linalg import norm
 from random import normalvariate
 from math import sqrt
 
-img_file = "spideymeme.png"
+img_file = "spideymeme.jpeg"
 image = np.array(Image.open(img_file))
 image = image / 255
 row, col, _ = image.shape
